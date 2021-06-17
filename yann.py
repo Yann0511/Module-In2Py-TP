@@ -41,12 +41,16 @@ print("L :", list(L))
 
 
 ## Exercice E1
-
 d = {'nom':"Dupuis", "prenom":"Jacque", "age":30}
-print("d : ", d)
 
 d["prenom"] = "Jacques"
 print("Apres modification du prenom")
-print("d : ", d)
 
 print("La liste des clés : ", list(d.keys()))
+
+print("La liste des valeurs : ", list(d.values()))
+
+print("La liste des paires clé/valeur : ", d)
+
+phrase = d["prenom"] + ' ' +  d["nom"] + ' ' + 'a' + ' ' + str(d["age"]) + ' ' + 'ans'
+print(phrase)

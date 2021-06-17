@@ -9,7 +9,7 @@ moyenne_generale = (moyenne['equation-differentielle'] + moyenne['langage-c'] + 
 
 print("Ma moyenne est : ", moyenne_generale)
 
-## Exo suivant
+## Exo E0
 
 L = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print("L : ",list(L))
@@ -38,3 +38,15 @@ print("L2 :", list(L2))
 
 del L[3]
 print("L :", list(L))
+
+
+## Exercice E1
+
+d = {'nom':"Dupuis", "prenom":"Jacque", "age":30}
+print("d : ", d)
+
+d["prenom"] = "Jacques"
+print("Apres modification du prenom")
+print("d : ", d)
+
+print("La liste des clés : ", list(d.keys()))

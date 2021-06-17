@@ -44,7 +44,6 @@ print("L :", list(L))
 d = {'nom':"Dupuis", "prenom":"Jacque", "age":30}
 
 d["prenom"] = "Jacques"
-print("Apres modification du prenom")
 
 print("La liste des clés : ", list(d.keys()))
 
